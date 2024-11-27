@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#shipping{
+   width: 100%;
+   height: 35px;
+   background-color:rgb(18, 18, 18);
+   text-align: center;
+   color:#d5c6c6;
+   font-size: 14px;
+   padding-top: 12px;
+   border-bottom:0.01px solid #2a2a2a;
+   position: static;
+   top: 0;
+   font-family: BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+#shipping:hover{
+    background-color:rgb(34, 32, 32);
+}
+
+#ships{
+    text-decoration: none;
+}
+
+header{
+   width: 100%;
+   height: 50px;
+   background-color:rgb(18, 18, 18);
+   color: #d5c6c6;
+   padding: 20px 60px;
+   justify-content: center;
+   position: sticky;
+   top: 0px;
+}
+
+
+li{
+    display: inline-block;
+    padding-right: 35px;
+    
+}
+
+#logo{
+  width: 130px;
+  height: 25px;
+  margin-top: 10px;
+}
+
+#home{
+  color: #ffffff;
+  text-decoration: underline;
+  padding-top: -10px;
+}
+
+#user{
+    text-decoration: none;
+}
+
+.home2{
+  color: #d5c6c6;
+}
+
+.home2:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+#home3,#home4{
+    color: #e7dada;
+    transition: all 1ms ease 0s ;
+}
+
+#home3{
+    margin-left: 750px;
+}
+
+#home3:hover{
+    transform: scale(1.19);
+}
+
+#home4:hover{
+    transform: scale(1.19);
+}
+
+/* body container  */
+
+#contant{
+    width: 100%;
+   
+}
+
+/* First Row */
+
+#line-1{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    padding: 36px 100px;
+}
+
+img{
+    display: inline-block;
+    width: 420px;
+    height: 420px;
+}
+.r1c1{
+    padding:0 36px 36px 0 ;
+}
+
+.r1c2{
+    padding:0 36px 36px 0 ;
+}
+
+.r1c3{
+    padding:0 36px 36px 0 ;
+}
+
+/* Second Row  */
+
+#line-2{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    padding: 36px 100px;
+}
+
+.r2c1{
+    padding:62px 36px 36px 0 ;
+}
+
+.r2c2{
+    padding:62px 36px 36px 0 ;
+}
+
+.r2c3{
+    padding:62px 36px 36px 0 ;
+}
+
+/* Thered Row */
+
+#line-3{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    padding: 36px 100px;
+}
+
+.r3c1{
+    padding:124px 36px 36px 0 ;
+}
+
+.r3c2{
+    padding:124px 36px 36px 0 ;
+}
+
+.r3c3{
+    padding:124px 36px 36px 0 ;
+}
+
+/* profile container */
+
+
+#profile{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-content: center;
+    margin: 300px 70px 0 80px ;
+}
+
+#photo{
+    display: inline-block;
+    width: 400px;
+    height: 550px;
+    background-image: url(img/profile.webp);
+    background-size: cover;
+}
+
+.details{
+    font-family: BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    display: inline-block;
+    align-items: center;
+    margin: 100px 50px;
+    height: 650px;
+}
+
+h1{
+    font-weight:500;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.details h3{
+    font-style: normal;
+    margin-bottom: 30px;
+    font-size: 23px;
+    font-weight:400;
+    
+}
+
+.details button{
+    background-color: black;
+    color: white;
+    padding: 20px 50px;
+    font-size: 17px;
+    font-weight: 300;
+    margin-left: 50px;
+    transition: width height 2s steps(1) 0ms;
+    border: none;
+}
+
+.details button:hover{
+    transform: scale(1.01);
+}
+/* footer container  */
+
+footer{
+    background-color: #121212;
+    width: 100%;
+}
+
+#contacts{
+    height: 340px;
+    display: fixed;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+    border-bottom: .01px solid rgb(239, 236, 236);
+}
+
+footer h3{
+    font-weight: 200;
+    margin-bottom: 30px;
+    font-size: large;
+    color: rgb(255, 255, 255);
+}
+
+.num{
+    color: #b5b2b2bf;
+    margin-bottom: 30px;
+    display: block;
+    font-size: large;
+    font-weight: 400;
+}
+
+.num:hover{
+    color: white;
+}
+
+#insta{
+    color: white;
+    transition: font-size 1s ease 0ms;
+    padding: 40px 0 50px 0;
+}
+
+#insta:hover{
+    transform: scale(1.2);
+    color: white;
+}
+#copy{
+  width: 100%;
+  height: 100px;
+  background-color: #121212;
+  color: #d5c6c6;
+  display: flex;
+  font-size: small;
+  align-items: center;
+  margin: -0.2px 0 0 50px;
+  padding-top: 40px;
+  font-family: BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+.ununderline , .dot , #C2024{
+   display: inline-block;
+   color: #d5c6c6;
+   padding: 0 5px 0 5px ;
+}
+
+.ununderline{
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.ununderline:hover{
+    text-decoration: underline;
+    color: white;
+}
